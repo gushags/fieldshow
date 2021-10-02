@@ -1,0 +1,103 @@
+baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Volunteer"
+  URL = "#volunteer"
+  weight = 1
+
+  [[menu.header]]
+  name = "Sponsorships"
+  URL = "#sponsors"
+  weight = 2
+
+  [[menu.header]]
+  name = "Tickets"
+  URL = "#tickets"
+  weight = 3
+  
+  [[menu.header]]
+  name = "Schedule"
+  URL = "#schedule"
+  weight = 4
+
+  [[menu.header]]
+  name = "Directions"
+  URL = "#directions"
+  weight = 5
+  
+  [[menu.header]]
+  name = "Explore SCV"
+  URL = "#explore"
+  weight = 6
+
+
+  [[menu.footer]]
+  name = "Volunteer"
+  URL = "#volunteer"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Sponsorships"
+  URL = "#sponsors"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Tickets"
+  URL = "#tickets"
+  weight = 3
+  
+  [[menu.footer]]
+  name = "Schedule"
+  URL = "#schedule"
+  weight = 4
+
+  [[menu.footer]]
+  name = "Directions"
+  URL = "#directions"
+  weight = 5
+
+  [[menu.footer]]
+  name = "Explore SCV"
+  URL = "#explore"
+  weight = 6
+
+  
+
+
+[params]
+
+  sections = ["showcase", "volunteer", "sponsors", "tickets", "schedule", "directions", "explore"]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Andreas"
+    text2 = "Ellure"
+
+  [params.footer]
+      copyright = "©2021 All rights reserved | Pride of the Vikings."
