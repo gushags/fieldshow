@@ -1,32 +1,14 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-<!-- Google Tag Manager -->
-<script>
-    (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id={{ .Site.Params.googleTagManagerID }}' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', '{{ .Site.Params.googleTagManagerID }}');
-</script>
-<!-- End Google Tag Manager -->
-<!-- endinject -->
+
 <title>{{ .Site.Data.homepage.head.title }}</title>
 <style>
     /* Fade In animation triggering after font load or 3s timeout */
     .rad-fade-in {
         will-change: opacity, transform;
         animation-name: rad-fade-in-fallback;
-        animation-duration: 5s;
+        animation-duration: 2s;
         animation-fill-mode: both;
     }
 
@@ -69,7 +51,7 @@
     .rad-fade-in-long {
         will-change: opacity, transform;
         animation-name: rad-fade-in-long-fallback;
-        animation-duration: 8s;
+        animation-duration: 4s;
         animation-fill-mode: both;
     }
 
@@ -211,7 +193,7 @@
         }
     }
 </style>
-
+<script src="https://kit.fontawesome.com/12b7b78955.js" crossorigin="anonymous"></script>
 {{ range .Site.Params.plugins.css }}
 <link rel="stylesheet" href="{{ .URL | absURL }}"/>
 {{ end }}

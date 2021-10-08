@@ -93,11 +93,5 @@ theme = "raditian-free-hugo-theme"
 
   sections = ["showcase", "volunteer", "sponsors", "tickets", "schedule", "directions", "explore"]
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
-
-  [params.logo]
-    text1 = "Andreas"
-    text2 = "Ellure"
-
   [params.footer]
       copyright = "©2021 All rights reserved | Pride of the Vikings."

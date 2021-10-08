@@ -3,24 +3,26 @@ showcase:
   enable: true
   title: "Valencia High School"
   subtitle: "2021 Field Tournament"
-  description: "Curabitur est gravida et libero vitae dictum. Pellentesque habitant morbi tristique senectus et netus. Magna pars studiorum, prodita quaerimus. Pellentesque habitant morbi tristique senectus et netus."
+  description: "Join us on Saturday, October 23rd for the 9th Annual 
+  Valencia High School Pride of the Vikings Field Show Tournament at 
+  Valencia High School in Santa Clarita! This event brings together some 
+  of the most radiant color guard pageantry and thrilling marching bands 
+  in Southern California as they all compete for 1st place. There will 
+  be raffle prizes, food and merchandise. Admission is $10. Parking is 
+  free. All proceeds go towards benefiting the Valencia High School Band 
+  and Color Guard program."
   image:
     x: "img/showcase/fieldpatch.jpg"
     _2x: "img/showcase/fieldpatch@2x.jpg"
   imageMobile:
     x: "img/showcase/fieldpatch-mobile.jpg"
 
-  # button:
-   # icon: "icon-mail-fill"
-   # btnText: "Contact"
-   # URL: "https://radity.com/en/contact/"
-
   socialLinks:
     - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
+      URL: "https://www.instagram.com/valenciavikingsbandandflags/"
 
     - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
+      URL: "https://www.facebook.com/groups/valenciaband1/"
 
 
 
@@ -29,14 +31,17 @@ volunteer:
   enable: true
   title: "Volunteer at the Tournament"
   content: '<p class="lead">
-    Unam incolunt Belgae, aliam Aquitani, tertiam. Magna pars studiorum, prodita quaerimus. 
-    Quisque ut dolor gravida, placerat libero vel, euismod. Lorem ipsum dolor sit amet, 
-    consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
-    Phasellus laoreet lorem vel dolor tempus vehicula.
+    We need volunteers to run this great show. That&#39;s you! We&#39;re currently in need of a 
+    Co-Chair of Concessions. The systems are in place, we just need someone to help run
+    it. Contact us at <a href="mailto:vikingsband@gmail.com
+    ?subject=Volunteer
+    &body=Please contact me about field show volunteer opportunities.">vikingsband@gmail.com</a>.
     </p>
     <p class="lead">
-    Ullamco laboris nisi ut aliquid ex ea commodi consequat. Pellentesque habitant morbi 
-    tristique senectus et netus. Phasellus laoreet lorem vel dolor tempus vehicula.
+    To learn about other volunteer opportunities, visit the Signup Genius link below, or
+    email us at <a href="mailto:vikingsband@gmail.com
+    ?subject=Volunteer
+    &body=Please contact me about field show volunteer opportunities.">vikingsband@gmail.com</a>. 
     </p>'
   button:
     icon: "icon-smile-fill"
@@ -51,180 +56,101 @@ sponsors:
   enable: true
   title: "Become a sponsor"
   content: '<p class="lead">
-    Unam incolunt Belgae, aliam Aquitani, tertiam. Magna pars studiorum, prodita quaerimus. 
-    Quisque ut dolor gravida, placerat libero vel, euismod. Lorem ipsum dolor sit amet, 
-    consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
-    Phasellus laoreet lorem vel dolor tempus vehicula.
+    Interested in sponsoring the Pride of the Vikings? Thanks! Sponsorship opportunities are available
+    in the Show Program which will be distributed free to every ticket holder the day of the show.
     </p>
     <p class="lead">
-    Ullamco laboris nisi ut aliquid ex ea commodi consequat. Pellentesque habitant morbi 
-    tristique senectus et netus. Phasellus laoreet lorem vel dolor tempus vehicula.
+    Click the button below to learn more, or contact us at 
+    <a href="mailto:vikingsband@gmail.com
+    ?subject=Sponsorship
+    &body=Please contact me about field show sponsorship opportunities.">vikingsband@gmail.com</a>.
     </p>'
   button:
     icon: "icon-smile-fill"
     btnText: "Learn more"
-    URL: "#"
+    URL: "mailto:vikingsband@gmail.com
+    ?subject=Sponsorship
+    &body=Please contact me about field show sponsorship opportunities."
   image:
-    x: "img/general/sponsorsFPO.jpg"
-    _2x: "img/general/sponsorsFPO@2x.jpg"
+    x: "img/sponsor/sponsor.png"
+    _2x: "img/sponsor/sponsor.png"
 
 
 # directions
 directions:
   enable: true
   title: "Directions"
-  description: "To get to Valencia High School, take I-5 to the 126/Newhall Ranch Road exit and turn east. Go left on Dickason Drive, and another left on Smyth Drive. The school will be on your right."
-  # button:
-  #   icon: "icon-linkedin-fill"
-  #   btnText: "Linkedin"
-  #   URL: "https://www.linkedin.com/company/radity/"
-  # button2:
-  #   icon: "icon-profile-fill"
-  #   btnText: "Download My Resume"
-  #   URL: "#"
-
-  # items:
-  #   - title: "Sr. Front-End Developer"
-  #     company: "Radity"
-  #     duration: "Feb 2011 - Sep 2019"
-
-  #   - title: "Sr. Front-End Developer"
-  #     company: "Textic"
-  #     duration: "Apr 2010 - Jan 2011"
-
-  #   - title: "Jr. Front-End Developer"
-  #     company: "Cyberse"
-  #     duration: "Jun 2009 - Mar 2010"
+  description: "To get to Valencia High School, 
+  take I-5 to the 126/Newhall Ranch Road exit and turn east. 
+  Go left on Dickason Drive, and another left on Smyth Drive. 
+  The school will be on your right."
+  
 
 # schedule
 schedule:
   enable: true
   title: "Schedule of events"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua."
+  image: 
+    x: "img/schedule/schedulebook2.png"
+    _2x: "img/schedule/schedulebook2.png"
+  content: "The schedule of events is coming soon!
+  Check back as we get closer to the event."
 
 # explore
 explore:
   enable: true
   title: "Downtime? Explore the Santa Clarita Valley."
-  description: "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua."
+  description: "Santa Clarita offers the ultimate Southern California 
+  lifestyle with endless opportunities to get outdoors and enjoy the 
+  sunshine. Check out our great restaurants, amazing parks, and miles 
+  of hiking and walking paths."
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+    - name: "Restaurants, hotel & night life"
+      icon: "fa-solid fa-champagne-glasses fa-2x"
+      url: "http://visitsantaclarita.com"
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/explore/visit-HeaderLogo.png"
+        _2x: "img/explore/visit-HeaderLogo.png"
+      content: 'Find hotels, restaurants, night life and more 
+      on visitsantaclarita.com.'
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+    - name: "Hiking & biking"
+      icon: "fa-solid fa-bicycle fa-2x"
+      url: "http://hikesantaclarita.com"
+      content: "Santa Clarita has miles and miles of hiking, biking and walking paths along the river
+      and in the hills. Check out hikesantaclarita.com for maps and suggestions."
       image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+        x: "img/explore/explore_hike.png"
+        _2x: "img/explore/explore_hike.png"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+    - name: "Entertainment"
+      icon: "fa-solid fa-rocket fa-2x"
+      url: "https://www.castaiclake.com"
+      content: "We've also got a world-famous amusement park in Magic Mountain, golf courses and 
+      the Castaic Lake recreation area. Make sure you come back for a visit!"
       image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
-
-        
-# Client & Work
-client_and_work:
-  title: "Clients & Works"
-  enable: false
-
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
-
-  works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
-
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
-      is_even: false
-
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
+        x: "img/explore/explore_magic.png"
+        _2x: "img/explore/explore_magic@2x.png"
 
 # tickets
 tickets:
   enable: true
   title: "Tickets and Swag"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+    - content: "Tickets are $10 and can be purchased at the door. All proceeds benefit the Valencia Marching Band and Color Guard."
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/tickets/tickets.png"
+        _2x: "img/tickets/tickets.png"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+    - content: "Don't forget to check out the raffle! You could win a host of great prizes."
       image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+        x: "img/tickets/raffle.jpg"
+        _2x: "img/tickets/raffle.jpg"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+    - content: "Shirts, gear, and this patch will be available for purchase the day of the field show."
       image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+        x: "img/tickets/fieldpatch_notext.png"
+        _2x: "img/tickets/fieldpatch_notext.png"
 
 # contact
 contact:
