@@ -18,10 +18,10 @@ showcase:
     x: "img/showcase/fieldpatch-mobile.jpg"
 
   socialLinks:
-    - icon: "instagram"
+    - icon: "fa-brands fa-instagram"
       URL: "https://www.instagram.com/valenciavikingsbandandflags/"
 
-    - icon: "facebook"
+    - icon: "fa-brands fa-facebook"
       URL: "https://www.facebook.com/groups/valenciaband1/"
 
 
