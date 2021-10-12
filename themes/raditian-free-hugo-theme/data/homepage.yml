@@ -46,7 +46,7 @@ volunteer:
   button:
     icon: "icon-smile-fill"
     btnText: "Sign up"
-    URL: "#"
+    URL: "https://www.signupgenius.com/go/4090448a5a728a4f58-20212"
   image:
     x: "img/volunteer/volunteer.jpg"
     _2x: "img/volunteer/volunteer@2x.jpg"
