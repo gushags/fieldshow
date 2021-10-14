@@ -17,14 +17,10 @@ showcase:
   imageMobile:
     x: "img/showcase/fieldpatch-mobile.jpg"
 
-  video: 'youtube id="pSP65-f3PRw" autoplay="true" title="Valencia Field Tournament Promo Video"'
 
   socialLinks:
     - icon: "fa-brands fa-instagram fa-2x mr-4"
       URL: "https://www.instagram.com/valenciavikingsbandandflags/"
-
-    - icon: "fa-brands fa-facebook-f fa-2x mr-4"
-      URL: "https://www.facebook.com/groups/valenciaband1/"
 
 
 
@@ -58,11 +54,7 @@ sponsors:
   enable: true
   title: "Become a sponsor"
   content: '<p class="lead">
-    Interested in sponsoring the Pride of the Vikings? Thanks! Sponsorship opportunities are available
-    in the Show Program which will be distributed free to every ticket holder the day of the show.
-    </p>
-    <p class="lead">
-    Click the button below to learn more, or contact us at 
+    Interested in sponsoring the Pride of the Vikings? Contact us at 
     <a href="mailto:vikingsband@gmail.com
     ?subject=Sponsorship
     &body=Please contact me about field show sponsorship opportunities.">vikingsband@gmail.com</a>.
