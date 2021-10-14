@@ -29,6 +29,26 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26323.44989345757!2d-118.58012332653776!3d34.44119960448447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c27df6649ea395%3A0x48dcb37dd5082ad4!2sValencia%20High%20School!5e0!3m2!1sen!2sus!4v1633103449474!5m2!1sen!2sus" width="500" height="375" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
+        <div class="row flex-md-row rad-fade-down mt-5">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                <a href="{{ .Site.Data.homepage.directions.url }}">
+                    <img
+                        class="lozad img-responsive"
+                        src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                        data-src="{{ .Site.Data.homepage.directions.image.x | absURL }}"
+                        data-srcset="{{ .Site.Data.homepage.directions.image.x | absURL }} 1x, {{ .Site.Data.homepage.directions.image._2x | absURL }} 2x"
+                        alt="Profile Picture"
+                        />
+                </a>
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>{{ .Site.Data.homepage.directions.subhead }}</h2>
+                <p class="lead">
+                    {{ .Site.Data.homepage.directions.copy }}
+                </p>
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 {{ end }}

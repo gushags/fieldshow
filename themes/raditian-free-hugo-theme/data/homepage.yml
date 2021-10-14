@@ -17,6 +17,8 @@ showcase:
   imageMobile:
     x: "img/showcase/fieldpatch-mobile.jpg"
 
+  video: 'youtube id="pSP65-f3PRw" autoplay="true" title="Valencia Field Tournament Promo Video"'
+
   socialLinks:
     - icon: "fa-brands fa-instagram fa-2x mr-4"
       URL: "https://www.instagram.com/valenciavikingsbandandflags/"
@@ -48,8 +50,8 @@ volunteer:
     btnText: "Sign up"
     URL: "https://www.signupgenius.com/go/4090448a5a728a4f58-20212"
   image:
-    x: "img/volunteer/volunteer.jpg"
-    _2x: "img/volunteer/volunteer@2x.jpg"
+    x: "img/volunteer/vol_flyer.jpg"
+    _2x: "img/volunteer/vol_flyer@2x.jpg"
 
 # sponsors
 sponsors:
@@ -84,6 +86,13 @@ directions:
   take I-5 to the 126/Newhall Ranch Road exit and turn east. 
   Go left on Dickason Drive, and another left on Smyth Drive. 
   The school will be on your right."
+  subhead: "Map of Valencia High School"
+  copy: "Please check in at the Band Check-in Tent to find your
+  assigned warmup area. Click the map to download a PDF file."
+  image:
+    x: "img/directions/field_map.jpg"
+    _2x: "img/directions/field_map.jpg"
+  url: "/img/directions/Valencia_field_map.pdf"
   
 
 # schedule
@@ -91,10 +100,13 @@ schedule:
   enable: true
   title: "Schedule of events"
   image: 
-    x: "img/schedule/schedulebook2.png"
-    _2x: "img/schedule/schedulebook2.png"
-  content: "The schedule of events is coming soon!
-  Check back as we get closer to the event."
+    x: "img/schedule/2021_schedule.jpg"
+    _2x: "img/schedule/2021_schedule.jpg"
+  content: '<p class="lead">Check the schedule to see when your school is playing. Click the image 
+  to view a larger version or to download a PDF file.</p>
+  <p class="lead">We are excited to see your show! Questions? 
+  <a href="mailto:vikingsband@gmail.com">Contact us</a>.</p>'
+  url: "/img/schedule/2021_schedule.pdf"
 
 # explore
 explore:

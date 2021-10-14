@@ -1,21 +1,19 @@
 {{ if .Site.Data.homepage.volunteer.enable }}
 <section class="section rad-animation-group pb-0" id="volunteer">
   <div class="container rad-fade-down">
-    <div class="row d-flex flex-column-reverse flex-md-row">
-      <div class="about__profile-picture col-12 col-md-6">
+    <div class="row d-flex flex-md-row">
+      <div class="col-12 text-right">
+        <h2>{{ .Site.Data.homepage.volunteer.title }}</h2>
         <img
-          class="lozad img-responsive image-left-overflow"
+          class="lozad img-responsive"
+          style="width:100%"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
           data-src="{{ .Site.Data.homepage.volunteer.image.x | absURL }}"
           data-srcset="{{ .Site.Data.homepage.volunteer.image.x | absURL }} 1x, {{ .Site.Data.homepage.volunteer.image._2x | absURL }} 2x"
-          alt="Profile Picture"
+          alt="Volunteer Flyer"
         />
       </div>
-      <div class="col-12 col-md-6 my-auto my-auto">
-        <h2>{{ .Site.Data.homepage.volunteer.title }}</h2>
-        <p class="lead">
-          {{ .Site.Data.homepage.volunteer.content | safeHTML }}
-        </p>
+      <div class="col-12 text-left mt-3">
         <a
           href="{{ .Site.Data.homepage.volunteer.button.URL | absURL }}"
           target="_blank"
