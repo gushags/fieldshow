@@ -1,14 +1,16 @@
 {{ if .Site.Data.homepage.tickets.enable }}
-<section id="tickets" class="section rad-animation-group section--border-bottom">
+<section id="tickets" class="section rad-animation-group">
     <div class="container">
         <h2 class="rad-fade-down text-right">{{ .Site.Data.homepage.tickets.title }}</h2>
         <div class="row row--padded mb-0 rad-fade-down">
             {{ range .Site.Data.homepage.tickets.items }}
             <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
-                <div class="text-center">
+                <div class="text-center d-none d-lg-block">
                     <img style="max-height: 250px;" src="{{ .image.x | absURL }}" alt="{{ .name }}" srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x">
                 </div>
-
+                <div class="d-lg-none d-xl-none d-xxl-none text-center">
+                    <img style="max-width: 35%;" src="{{ .image.x | absURL }}" alt="{{ .name }}" srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x">
+                </div>
                 <p>
                     {{ .content }}
                 </p>
