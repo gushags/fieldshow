@@ -1,13 +1,6 @@
 {{ if .Site.Data.homepage.showcase.enable }}
 <section class="rad-showcase rad-animation-group rad-fade-down">
   <div class="rad-showcase__bg" style="z-index:100">
-    <!-- <img
-      class="lozad img-responsive"
-      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.showcase.image.x | absURL }}"
-      data-srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 2x"
-      alt="{{ .Site.Data.homepage.showcase.image.alt }}"
-    /> -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pSP65-f3PRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="container">
@@ -20,6 +13,13 @@
             >{{ .Site.Data.homepage.showcase.subtitle }}</span
           >
         </h1>
+        <div class="container d-lg-none d-xl-none d-xxl-none mb-3">
+          <div class="row">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pSP65-f3PRw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+        </div>
         <p class="lead">
           {{ .Site.Data.homepage.showcase.description | safeHTML }}
         </p>
@@ -34,9 +34,6 @@
         {{ end }}
       </div>
     </div>
-  </div>
-  <div class="rad-showcase__bg rad-showcase__bg--mobile" style="z-index: 100;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pSP65-f3PRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </section>
 {{ end }}
