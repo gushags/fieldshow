@@ -1,3 +1,6 @@
+#head
+title: "Pride of the Vikings | Field Show"
+
 # showcase
 showcase:
   enable: true
@@ -133,25 +136,25 @@ explore:
       content: "We've also got a world-famous amusement park in Magic Mountain, golf courses and 
       the Castaic Lake recreation area. Make sure you come back for a visit!"
       image:
-        x: "img/explore/explore_magic.png"
-        _2x: "img/explore/explore_magic@2x.png"
+        x: "img/explore/explore_magic2.png"
+        _2x: "img/explore/explore_magic2.png"
 
 # tickets
 tickets:
   enable: true
   title: "Tickets and Swag"
   items:
-    - content: "Tickets are $10 and can be purchased at the door. All proceeds benefit the Valencia Marching Band and Color Guard."
+    - content: '<p class="lead">Tickets are $10 and can be purchased at the door. All proceeds benefit the Valencia Marching Band and Color Guard.</p>'
       image:
         x: "img/tickets/tickets.png"
         _2x: "img/tickets/tickets.png"
 
-    - content: "Don't forget to check out the raffle! You could win a host of great prizes."
+    - content: "<p class='lead'>Don't forget to check out the raffle! You could win a host of great prizes.</p>"
       image:
         x: "img/tickets/raffle.jpg"
         _2x: "img/tickets/raffle.jpg"
 
-    - content: "Shirts, gear, and this patch will be available for purchase the day of the field show."
+    - content: '<p class="lead">Shirts, gear, and this patch will be available for purchase the day of the field show.</p>'
       image:
         x: "img/tickets/fieldpatch_notext.png"
         _2x: "img/tickets/fieldpatch_notext.png"

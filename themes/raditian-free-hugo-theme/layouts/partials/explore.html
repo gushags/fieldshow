@@ -6,13 +6,13 @@
             {{ range .Site.Data.homepage.explore.items }}
             <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
                 <i class="{{ .icon }} mb-4"></i>
-                <div>
+                <div class="text-center">
                     <a href="{{ .url }}">
-                        <img src="{{ .image.x | absURL }}" alt="{{ .name }}" srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x">
+                        <img style="height: 90px;" src="{{ .image.x | absURL }}" alt="{{ .name }}" srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x">
                     </a>
                 </div>
 
-                <p>
+                <p class="lead">
                     {{ .content }}
                 </p>
             </div>

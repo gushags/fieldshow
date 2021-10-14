@@ -11,8 +11,8 @@
                 <div class="d-lg-none d-xl-none d-xxl-none text-center">
                     <img style="max-width: 35%;" src="{{ .image.x | absURL }}" alt="{{ .name }}" srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x">
                 </div>
-                <p>
-                    {{ .content }}
+                <p class="lead">
+                    {{ .content  | safeHTML }}
                 </p>
             </div>
             {{ end }}
