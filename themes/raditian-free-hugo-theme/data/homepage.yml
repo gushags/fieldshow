@@ -103,6 +103,17 @@ schedule:
   <a href="mailto:vikingsband@gmail.com">Contact us</a>.</p>'
   url: "/img/schedule/2021_schedule.pdf"
 
+# menu
+menu:
+  enable: true
+  title: "What's on the menu?"
+  image: 
+    x: "img/menu/menu_2021.jpg"
+    _2x: "img/menu/menu_2021.jpg"
+  content: "Oh, so much good stuff! Click on the menu to see (or download) a 
+  larger PDF file. We hope you're hungry!"
+  url: "/img/menu/menu_2021.pdf"
+
 # explore
 explore:
   enable: true

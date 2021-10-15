@@ -1,0 +1,26 @@
+{{ if .Site.Data.homepage.menu.enable }}
+<section class="section rad-animation-group pt-0 pb-0" id="schedule">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="col-12 col-md-6">
+        <a href="{{ .Site.Data.homepage.menu.url }}">
+          <img
+            class="lozad img-responsive"
+            style="width:750px"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            data-src="{{ .Site.Data.homepage.menu.image.x | absURL }}"
+            data-srcset="{{ .Site.Data.homepage.menu.image.x | absURL }} 1x, {{ .Site.Data.homepage.menu.image._2x | absURL }} 2x"
+            alt="Profile Picture"
+          />
+        </a>
+      </div>
+      <div class="col-12 col-md-6 mt-4 my-auto">
+        <h2>{{ .Site.Data.homepage.menu.title }}</h2>
+        <p class="lead">
+          {{ .Site.Data.homepage.menu.content | safeHTML }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

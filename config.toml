@@ -31,7 +31,7 @@ theme = "raditian-free-hugo-theme"
   weight = 1
 
   [[menu.header]]
-  name = "Sponsorships"
+  name = "Sponsor"
   URL = "#sponsors"
   weight = 2
 
@@ -46,14 +46,19 @@ theme = "raditian-free-hugo-theme"
   weight = 4
 
   [[menu.header]]
+  name = "Menu"
+  URL = "#menu"
+  weight = 5
+
+  [[menu.header]]
   name = "Directions"
   URL = "#directions"
-  weight = 5
+  weight = 6
   
   [[menu.header]]
   name = "Explore SCV"
   URL = "#explore"
-  weight = 6
+  weight = 7
 
 
   [[menu.footer]]
@@ -62,7 +67,7 @@ theme = "raditian-free-hugo-theme"
   weight = 1
 
   [[menu.footer]]
-  name = "Sponsorships"
+  name = "Sponsor"
   URL = "#sponsors"
   weight = 2
 
@@ -77,21 +82,26 @@ theme = "raditian-free-hugo-theme"
   weight = 4
 
   [[menu.footer]]
+  name = "Menu"
+  URL = "#menu"
+  weight = 5
+
+  [[menu.footer]]
   name = "Directions"
   URL = "#directions"
-  weight = 5
+  weight = 6
 
   [[menu.footer]]
   name = "Explore SCV"
   URL = "#explore"
-  weight = 6
+  weight = 7
 
   
 
 
 [params]
 
-  sections = ["showcase", "volunteer", "sponsors", "tickets", "schedule", "directions", "explore"]
+  sections = ["showcase", "volunteer", "sponsors", "tickets", "schedule", "menu", "directions", "explore"]
 
   [params.footer]
       copyright = "©2021 All rights reserved | Pride of the Vikings."
