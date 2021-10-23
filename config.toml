@@ -95,7 +95,7 @@ theme = "raditian-free-hugo-theme"
   [[menu.footer]]
   name = "Contact"
   URL = "#contact"
-  weight = 6
+  weight = 7
 
   
 
