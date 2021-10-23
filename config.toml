@@ -25,39 +25,40 @@ theme = "raditian-free-hugo-theme"
 # navigation
 [menu]
 
-  [[menu.header]]
-  name = "Volunteer"
-  URL = "#volunteer"
-  weight = 1
 
   [[menu.header]]
   name = "Sponsor"
   URL = "#sponsors"
-  weight = 2
+  weight = 1
 
   [[menu.header]]
   name = "Tickets"
   URL = "#tickets"
-  weight = 3
+  weight = 2
   
   [[menu.header]]
   name = "Schedule"
   URL = "#schedule"
-  weight = 4
+  weight = 3
 
   [[menu.header]]
   name = "Menu"
   URL = "#menu"
-  weight = 5
+  weight = 4
 
   [[menu.header]]
   name = "Directions"
   URL = "#directions"
-  weight = 6
+  weight = 5
   
   [[menu.header]]
   name = "Explore SCV"
   URL = "#explore"
+  weight = 6
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
   weight = 7
 
 
@@ -67,41 +68,41 @@ theme = "raditian-free-hugo-theme"
   weight = 1
 
   [[menu.footer]]
-  name = "Sponsor"
-  URL = "#sponsors"
-  weight = 2
-
-  [[menu.footer]]
   name = "Tickets"
   URL = "#tickets"
-  weight = 3
+  weight = 2
   
   [[menu.footer]]
   name = "Schedule"
   URL = "#schedule"
-  weight = 4
+  weight = 3
 
   [[menu.footer]]
   name = "Menu"
   URL = "#menu"
-  weight = 5
+  weight = 4
 
   [[menu.footer]]
   name = "Directions"
   URL = "#directions"
-  weight = 6
+  weight = 5
 
   [[menu.footer]]
   name = "Explore SCV"
   URL = "#explore"
-  weight = 7
+  weight = 6
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 6
 
   
 
 
 [params]
 
-  sections = ["showcase", "volunteer", "sponsors", "tickets", "schedule", "menu", "directions", "explore"]
+  sections = ["showcase", "sponsors", "tickets", "schedule", "menu", "directions", "explore", "contact"]
 
   [params.footer]
       copyright = "©2021 All rights reserved | Pride of the Vikings."

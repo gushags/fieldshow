@@ -29,7 +29,7 @@ showcase:
 
 # volunteer
 volunteer:
-  enable: true
+  enable: false
   title: "Volunteer at the Tournament"
   content: '<p class="lead">
     We need volunteers to run this great show. That&#39;s you! We&#39;re currently in need of a 
@@ -154,6 +154,7 @@ explore:
 tickets:
   enable: true
   title: "Tickets and Swag"
+  raffle: "img/tickets/raffle_image.jpg"
   items:
     - content: '<p class="lead">Tickets are $10 and can be purchased at the door. All proceeds benefit the Valencia Marching Band and Color Guard.</p>'
       image:
@@ -172,8 +173,8 @@ tickets:
 
 # contact
 contact:
-  enable: false
-  title: "Contact"
+  enable: true
+  title: "Contact Us"
   form:
     action: "#"
     full_name: "Full Name"
@@ -181,15 +182,14 @@ contact:
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    number: "(661) 294-1188"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:vikingsband@gmail.com">vikingsband@gmail.com</a>'
   address:
     title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "Valencia High School<br />27801 N. Dickason Drive<br />Valencia, CA 91354"
   button:
-    icon: "icon-mail-fill"
     btnText: "Send Message"
 
 # newsletter
